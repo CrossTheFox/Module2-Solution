@@ -1,0 +1,73 @@
+
+header{
+    text-align: center;
+    font-size: 46px;
+    margin-bottom: 15px;
+}
+
+section{
+    margin: auto;
+    margin-left: 1%;
+    margin-bottom: 10px;
+    position: relative;
+    background-color: gray;
+}
+
+h1 {
+    text-align: center;
+    background-color: red;
+    border: 2px solid black;
+    margin-top: 0%;
+    margin-left: 55%;
+    margin-bottom: 5px;
+    color: white;
+}
+
+p {
+    width: 90%;
+    height: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Helvetica;
+    color: white;
+}
+
+/* ********************* Computer-View ********************* */
+@media (min-width: 992px){
+    .col-lg-4{
+        float: left;
+        margin-right: 5px;
+        margin-left: 5px;
+        border: 1px solid black;
+    }
+    .col-lg-4 {
+        width: 30%;
+    }
+}
+
+
+/* ********************* Tablet-View ********************* */
+@media (min-width: 768px) and (max-width: 991px){
+    .col-md-6, .col-md-12{
+        float: left;
+        border: 1px solid black;
+      }
+    .col-md-6 {
+        width: 40%;
+    }
+    .col-md-12 {
+        width: 80%;
+    }
+}
+
+
+/* ********************* Mobile-View ********************* */
+@media (max-width: 767px) {
+    .col-sm-12{
+        float: left;
+        border: 1px solid black;
+    }
+    .col-sm-12{
+        width: 80%;
+    }
+}
